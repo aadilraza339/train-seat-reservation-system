@@ -46,11 +46,12 @@ CREATE DATABASE train_reservation;
 
 Update the .env with credentials:
 ## 4. Run database migrations and seeds
-
-```
 Run the database migrations to create the required tables:
+```
 npx knex migrate:latest
+```
 Then seed the database with the initial data (seats):
+```
 npx knex seed:run
 ```
 
