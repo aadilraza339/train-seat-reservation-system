@@ -15,7 +15,6 @@ This project is a **train seat reservation system** where users can book seats i
 - **MySQL** as the database.
 - **Knex.js** for database queries and migrations.
 - **React.js** for the frontend user interface.
-- **Aiven Cloud** for hosting the MySQL database.
 
 ## Prerequisites
 
