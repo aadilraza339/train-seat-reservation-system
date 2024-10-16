@@ -47,7 +47,7 @@ CREATE DATABASE train_reservation;
 
 Update the .env with credentials:
 ## 4. Start the application
-Run the backend application:
+Run the application: It will run our both server
 ```
 yarn run start
 ```
