@@ -73,7 +73,7 @@ Copy code
 ## Project Structure
 ```
 
-├── client/               # React frontend code
+├── frontend-client/               # React frontend code
 ├── knexfile.js           # Database configuration
 ├── migrations/           # Knex migration files
 ├── seeds/                # Knex seed files (initial data)
