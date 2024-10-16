@@ -35,9 +35,7 @@ Follow these steps to set up the project locally:
 git clone https://github.com/your-username/train-seat-reservation.git
 cd train-seat-reservation
 ```
-```bash
-yarn install
-```
+
 ## 3. Setup the database
 Make sure you have access to a MySQL database. You can use your local MySQL instance or an Aiven Cloud MySQL instance.
 
@@ -51,7 +49,7 @@ Update the .env with credentials:
 ## 4. Start the application
 Run the backend application:
 ```
-yarn run prod
+yarn run start
 ```
 API Endpoints
 GET /seats: Fetch all seat details, including their reservation status.
@@ -64,6 +62,8 @@ Copy code
 `POST /seats/reset: Reset all reservations.
 
 ## Project Structure
+```
+
 ├── client/               # React frontend code
 ├── knexfile.js           # Database configuration
 ├── migrations/           # Knex migration files
@@ -74,6 +74,8 @@ Copy code
 │   ├── models/           # Knex models for database operations
 │   └── index.js          # Main backend entry point
 └── README.md             # This file
+```
+
 
 
 
